@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">TurnKey</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">TurnKey</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Paramètres</string>
+
+    <string name="menu_home">Liste</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="sign_in">Inscription</string>
+    <string name="subtitle">Gestionnaire de mots de passe</string>
+    <string name="email">Email</string>
+    <string name="password">Mot de passe</string>
+    <string name="repetePassword">Confirmer le mot de passe</string>
+    <string name="connect">Connexion</string>
+    <string name="addLabel">Ajouter une nouvelle étiquette</string>
+    <string name="menu_label">Modifier les étiquetes</string>
+    <string name="mess_deleteLabel">Supprimer l\'étiquette</string>
+    <string name="ok_deleteLabel">supprimer</string>
+    <string name="no_deleteLabel">fermer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_form">Titre</string>
+    <string name="user_form">Nom d\'utilisateur</string>
+    <string name="url">Site internet</string>
+    <string name="infos">Informations Complémentaires</string>
+    <string name="addPsw">Nouveau mot de passe</string>
+    <string name="save">Enregistrer</string>
+    <string name="error_field">Champ obligatoire</string>
+    <string name="error">Champ obligatoire</string>
+    <string name="error_insert">Une erreur s\'est produit dans l\'envoie du formulaire</string>
+    <string name="date_update">Dernière mise à jour :</string>
+    <string name="date_insert">Date de création</string>
+    <string name="psw_update">Modifier</string>
+    <string name="psw_delete">Effacer</string>
+    <string name="form_titeEdit">Modification du mot de passe</string>
+    <string name="select_folder">Sélectionner un dossier</string>
+    <string name="spinner_select">Dossiers</string>
+    <string name="delete_psw">Voulez-vous l\'effacer ? </string>
+    <string name="copy_text">Copié dans le presse papiers</string>
+    <string name="close_app">Voulez-vous quitter TurneKey ?</string>
+    <string name="quit">Quitter</string>
+    <string name="close">Annuler</string>
+    <string name="rgpd">Termes et politique de confidentialité</string>
+    <string name="excel">Exporter un fichier csv</string>
+    <string name="reset">Effacer toutes les entrées</string>
+    <string name="CGU_title">Conditions générales d\'utilisation</string>
+    <string name="CGU_art2_title">Accès à l\'application</string>
+    <string name="CGU_art3_title">Politique de confidentialité</string>
+    <string name="CGU_art2">L\'application peut être téléchargé gratuitement sous la forme d\'application mobile depuis la plateforme de télechargement GooglePlay.</string>
+    <string name="CGU_art2_p2">La plateforme de téléchargement ne peut être tenue pour responsable des maintenances effectuées sur l\'application mobile et de l\'assistance apportée.</string>
+    <string name="CGU_art3">L\'application assure à l\'utilisateur qu\'aucune donnée personnelle n\'est conservée ni partage. </string>
+    <string name="CGU_art3_p2">Les données sont encryptées directement dans l\'appareil de l\'utilisateur. </string>
+    <string name="closeApp">Se déconnecter</string>
+    <string name="dialog_reset">Réinitialiser l\'application</string>
+    <string name="reset_btn">Valider</string>
+
+</resources>

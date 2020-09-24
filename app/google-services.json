@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "888684707464",
+    "firebase_url": "https://turnkey-6975f.firebaseio.com",
+    "project_id": "turnkey-6975f",
+    "storage_bucket": "turnkey-6975f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888684707464:android:4883534ed3c1cd3e6f693d",
+        "android_client_info": {
+          "package_name": "com.mobilap.turnKey"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888684707464-iue7ajajecjm4ha2pgnlaeglmuujtqpb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuSmo2culN_qa932r-S58yO2I7x_QaGMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888684707464-iue7ajajecjm4ha2pgnlaeglmuujtqpb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
