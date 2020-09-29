@@ -86,8 +86,7 @@ public class LabelAdapter extends ArrayAdapter<LabelViewModel> {
                         for(int m = 0 ; m<menu.size(); m++){
                             if(menu.getItem(m).getTitle().equals(label.getText())){
                                 menu.removeItem(m);
-                                item = menu.getItem(m).getItemId();
-
+                                item = menu.getItem(m-1).getItemId();
                             }
                         }
                         menu.removeItem(item);
