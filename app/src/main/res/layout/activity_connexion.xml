@@ -10,8 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="15dp"
-        android:paddingTop="15dp">
+        android:padding="@dimen/activity_connexion_padding"
+        android:layout_marginTop="@dimen/activity_connexion_padding_top">
 
         <ImageView
             android:id="@+id/imageConnexion"
@@ -26,18 +26,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="30dp">
+        tools:layout_editor_absoluteX="@dimen/activity_connexion_layout_x/"
+        tools:layout_editor_absoluteY="@dimen/activity_connexion_layout_x">
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="@dimen/activity_connexion_textview5_margin_top"
             android:text="@string/app_name"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="24sp"
+            android:textSize="@dimen/activity_connexion_textview5_textsize"
             android:textStyle="bold" />
 
         <TextView
@@ -47,7 +47,7 @@
             android:text="@string/subtitle"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="18sp"
+            android:textSize="@dimen/activity_connexion_textview6_textsize"
             android:textStyle="bold" />
 
     </LinearLayout>
@@ -63,9 +63,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="@dimen/activity_connexion_button_pd_mb"
             android:background="@color/greenDark"
-            android:padding="20dp"
+            android:padding="@dimen/activity_connexion_button_pd_mb"
+            android:textSize="@dimen/activity_connexion_button_textsize"
             android:text="@string/connect"
             android:textColor="#FFFFFF"
             android:textStyle="bold" />

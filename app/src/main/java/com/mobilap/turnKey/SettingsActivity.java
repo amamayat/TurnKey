@@ -115,11 +115,11 @@ public class SettingsActivity extends AppCompatActivity {
             }
         });
     }
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item){
-        finish();
-        return false;
-    }
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item){
+//        finish();
+//        return false;
+//    }
 
     public void DeleteAllPasswords(){
         List<PasswordModel> psws = passwordService.getListPasswords();

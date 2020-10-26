@@ -78,7 +78,7 @@ public class LabelAdapter extends ArrayAdapter<LabelViewModel> {
                     public void onClick(DialogInterface dialogInterface, int i) {
                         listLabels.remove(label);
                         foldersService.DeleteFolder(label.getText());
-                        removeFolderList(label.getText());
+                        long remove = removeFolderList(label.getText());
                         notifyDataSetChanged();
                         NavigationView navigationView =  parent.getRootView().findViewById(R.id.nav_view);
                         Menu menu = navigationView.getMenu();
@@ -117,15 +117,17 @@ public class LabelAdapter extends ArrayAdapter<LabelViewModel> {
         public ImageButton delete;
     }
 
-    public void removeFolderList(String label){
+    public long removeFolderList(String label){
+        long result = -1;
         List<PasswordModel> list = passwordService.getListPasswords();
         for(int i = 0 ; i< list.size(); i++){
             if(list.get(i).getFolder().equals(label)){
                 list.get(i).setDateModification(new Date());
                 list.get(i).setFolder("Liste");
-                long result = passwordService.UpdatePassword(list.get(i).getId(), list.get(i));
+                result = passwordService.UpdatePassword(list.get(i).getId(), list.get(i));
             }
         }
+        return result;
     }
 
 }
